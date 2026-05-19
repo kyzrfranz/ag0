@@ -1,0 +1,23 @@
+bin/
+data/
+
+# Personal configs — committed as *.example.* templates instead.
+agents.yaml
+coordinator.yaml
+context.md
+skills/*.md
+!skills/*.example.md
+
+.env.local
+
+.idea/
+.DS_Store
+
+# UI build artifacts (UI is embedded via go:embed; dist is built per-deploy)
+ui/node_modules
+ui/dist
+ui/*.tsbuildinfo
+ui/.env.local
+
+dist/
+./ag0

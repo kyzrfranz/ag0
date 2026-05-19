@@ -1,0 +1,22 @@
+.git
+.idea/
+.DS_Store
+bin/
+data/
+dist/
+
+# Personal configs — examples are baked in via explicit COPY; real ones
+# must be mounted at runtime.
+agents.yaml
+coordinator.yaml
+context.md
+skills/*.md
+!skills/*.example.md
+
+# Project docs are not needed inside the image
+*.md
+!*.example.md
+
+ui/node_modules
+ui/dist
+ui/.env.local

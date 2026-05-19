@@ -1,0 +1,20 @@
+{
+  "include": [
+    "vite.config.*",
+    "vitest.config.*"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+
+    "lib": ["es2023"],
+    "target": "es2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "types": ["node"]
+  }
+}
