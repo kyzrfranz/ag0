@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/demo.gif" alt="ag0 demo" width="800" />
+  <img src="docs/demo.gif?v=2" alt="ag0 demo" width="800" />
 </p>
 
 ag0 is a small, opinionated orchestration service: a single coordinator routes
